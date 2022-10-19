@@ -1,6 +1,6 @@
 let dataHabitaciones = {
     cantidad: 100,
-    habitaciones: [ {
+    habitaciones: [{
         id: 1,
         nombre: "Suite",
         descripcion: "Espaciosa habitación que se destaca por su gran confort, moderno diseño, particular decoración y equipamiento de alta calidad. La simpleza y refinamiento de los detalles junto al TV LCD, escritorio, sala de estar con sillones y una privilegiada vista al Parque desde el último piso a través de sus amplios ventanales realzan su categoría.La Suite, es la opción ideal para disfrutar del máximo confort en categoría de Habitaciones.",
@@ -42,3 +42,172 @@ let dataHabitaciones = {
 //     capacidad: ,
 //     comodidades: []
 // },
+
+let dataActividades = {
+
+    actividades: [{
+        id: 1,
+        nombre: "WATSU",
+        tipo: "pileta",
+        descripcion: "Es la unión de dos palabras. Water (agua) y Shiatsu, técnica japonesa que apoya procesos de sanación. Es una terapia realizada en piscinas y que permite a la persona entrar en un estado profundo de relajación involucrando a todos los sentidos.",
+        horaHabilitada: {
+            desde: "10:00",
+            hasta: "11:30",
+        },
+        dirigido: {
+            niños: true,
+            jovenes: true,
+            adultos: true,
+            ancianos: true,
+            mujeresEmbarzadas: true,
+        },
+        img: "https://www.masterdireccionhoteles.com/wp-content/uploads/2018/06/galeria-watsu-15-300x200.jpg",
+        dias: {
+            lunes: false,
+            martes: true,
+            miercoles: false,
+            jueves: true,
+            viernes: true,
+            sabado: false,
+            domingo: false,
+        }
+    },
+    {
+        id: 2,
+        nombre: "WOGA",
+        tipo: "pileta",
+        descripcion: "También llamado yoga acuático es una técnica de ejercicios en el agua teniendo en cuenta la flotación, el equilibrio, la concentración y la respiración. Se puede realizar de forma individual o colectiva. ",
+        horaHabilitada: {
+            desde: "14:00",
+            hasta: "15:00",
+        },
+        dirigido: {
+            niños: true,
+            jovenes: true,
+            adultos: true,
+            ancianos: true,
+            mujeresEmbarzadas: true,
+        },
+        img: "https://www.masterdireccionhoteles.com/wp-content/uploads/2018/06/El_Woga_una_terapia_acuatica_reconfortante_joya_life_1-300x168.jpg",
+        dias: {
+            lunes: true,
+            martes: false,
+            miercoles: true,
+            jueves: false,
+            viernes: true,
+            sabado: true,
+            domingo: true,
+        },
+    },
+    {
+        id: 3,
+        nombre: "AEROYOGA",
+        tipo: "tela",
+        descripcion: "Es un método inspirado en el yoga que utiliza la suspensión de un columpio especial como plataforma para fomentar la creatividad, el desbloqueo,la tonificación , la definición muscular y rejuvenecimiento. ",
+        horaHabilitada: {
+            desde: "14:00",
+            hasta: "15:00",
+        },
+        dirigido: {
+            niños: false,
+            jovenes: true,
+            adultos: true,
+            ancianos: true,
+            mujeresEmbarzadas: false,
+        },
+        img: "https://www.masterdireccionhoteles.com/wp-content/uploads/2018/06/ventajas-de-practicar-aeroyoga-300x198.jpg",
+        dias: {
+            lunes: false,
+            martes: false,
+            miercoles: false,
+            jueves: false,
+            viernes: true,
+            sabado: true,
+            domingo: true,
+        },
+    },
+    {
+        id: 4,
+        nombre: "JUMPING FITNESS",
+        tipo: "ritmo",
+        descripcion: "Consiste en realizar una serie de ejercicios en una cama elástica individual. Se trata de saltar combinando pasos aeróbicos, variando el ritmo y la velocidad al ritmo de la música. ",
+        horaHabilitada: {
+            desde: "17:00",
+            hasta: "19:00",
+        },
+        dirigido: {
+            niños: false,
+            jovenes: true,
+            adultos: true,
+            ancianos: false,
+            mujeresEmbarzadas: false,
+        },
+        img: "https://www.masterdireccionhoteles.com/wp-content/uploads/2018/06/c700x420-300x180.jpg",
+        dias: {
+            lunes: false,
+            martes: false,
+            miercoles: true,
+            jueves: true,
+            viernes: false,
+            sabado: false,
+            domingo: false,
+        },
+    },
+    {
+        id: 5,
+        nombre: "KANGOO POWER",
+        tipo: "ritmo",
+        descripcion: "Es una actividad cardiovascular y de tonificación que se realiza con una botas especiales que reducen el impacto de las articulaciones mientras se salta al ritmo de la música.",
+        horaHabilitada: {
+            desde: "16:00",
+            hasta: "17:40",
+        },
+        dirigido: {
+            niños: false,
+            jovenes: true,
+            adultos: true,
+            ancianos: false,
+            mujeresEmbarzadas: false,
+        },
+        img: "https://www.masterdireccionhoteles.com/wp-content/uploads/2018/06/El_Woga_una_terapia_acuatica_reconfortante_joya_life_1-300x168.jpg",
+        dias: {
+            lunes: false,
+            martes: false,
+            miercoles: false,
+            jueves: true,
+            viernes: true,
+            sabado: true,
+            domingo: false,
+        },
+    },
+    {
+        id: 6,
+        nombre: "AQUACYCLING",
+        tipo: "pileta",
+        descripcion: "Es una técnica de entrenamiento físico mediante una bicicleta sumergida en la piscina quedando parte del cuerpo al descubierto.",
+        horaHabilitada: {
+            desde: "09:45",
+            hasta: "10:40",
+        },
+        dirigido: {
+            niños: false,
+            jovenes: true,
+            adultos: true,
+            ancianos: false,
+            mujeresEmbarzadas: false,
+        },
+        img: "https://www.masterdireccionhoteles.com/wp-content/uploads/2018/06/Aqua-Cycling-300x200.jpg",
+        dias: {
+            lunes: true,
+            martes: false,
+            miercoles: false,
+            jueves: false,
+            viernes: true,
+            sabado: true,
+            domingo: false,
+        },
+    },
+
+
+    ]
+}
