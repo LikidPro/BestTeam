@@ -1,8 +1,4 @@
 
-*{
-    /* border: solid red .1rem; */
-}
-
 section{
     height: 35vh;
     width: 85rem;
@@ -13,6 +9,9 @@ section{
 }
 main{
 height: 100vh;
+background-image: url(https://www.wyndhamhotels.com/content/dam/property-images/en-us/gr/mx/others/cancun/56985/56985_exterior_view_8.jpg?downsize=1800:*s);
+background-position: center;
+background-size: cover;
 }
 .imagen1{
     height: 100%;
@@ -22,7 +21,7 @@ height: 100vh;
     background-position: center;
     border-radius: 1rem;
     border: solid .2rem black;
-    transition: 1s;
+    transition: .75s;
 
 }
 .imagen2{
@@ -33,7 +32,7 @@ height: 100vh;
     background-position: center;
     border-radius: 1rem;
     border: solid .2rem black;
-    transition: 1s;
+    transition:  .75s;
 }
 .imagen3{
     height: 100%;
@@ -43,7 +42,7 @@ height: 100vh;
     background-position: center;
     border-radius: 1rem;
     border: solid .2rem black;
-    transition: 1s;
+    transition:  .75s;
 }
 .imagen4{
     height: 100%;
@@ -53,7 +52,7 @@ height: 100vh;
     background-position: center;
     border-radius: 1rem;
     border: solid .2rem black;
-    transition: 1s;
+    transition:  .75s;
 }
 .imagen1:hover{
     position: relative; 
@@ -62,7 +61,7 @@ height: 100vh;
     background-image: url(./assets/56383_guest_room_7.png);
     background-size: cover;
     background-position: center;
-    transition: 1s;
+    transition:  .75s;
    
   
  
@@ -74,7 +73,7 @@ height: 100vh;
     background-image: url(./assets/56383_guest_room_3.png);
     background-size: cover;
     background-position: center;
-    transition: 1s;
+    transition:  .75s;
   
     
 }
@@ -85,7 +84,7 @@ height: 100vh;
     background-image: url(./assets/56383_guest_room_balcony_13.png);
     background-size: cover;
     background-position: center;
-    transition: 1s;
+    transition:  .75s;
    
     
 }
@@ -96,7 +95,7 @@ height: 100vh;
     background-image: url(./assets//56383_guest_room_bath_2.png);
     background-size: cover;
     background-position: center;
-    transition: 1s;
+    transition: .75s;
    
     
 }
