@@ -1,0 +1,102 @@
+
+*{
+    /* border: solid red .1rem; */
+}
+
+section{
+    height: 35vh;
+    width: 85rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+main{
+height: 100vh;
+}
+.imagen1{
+    height: 100%;
+    width: 25%;
+    background-color: transparent;
+    background-image: url(./assets/56383_guest_room_7.png);
+    background-position: center;
+    border-radius: 1rem;
+    border: solid .2rem black;
+    transition: 1s;
+
+}
+.imagen2{
+    height: 100%;
+    width: 25%;
+    background-color: transparent;
+    background-image: url(./assets/56383_guest_room_3.png);
+    background-position: center;
+    border-radius: 1rem;
+    border: solid .2rem black;
+    transition: 1s;
+}
+.imagen3{
+    height: 100%;
+    width: 25%;
+    background-color: transparent;
+    background-image: url(./assets/56383_guest_room_balcony_13.png);
+    background-position: center;
+    border-radius: 1rem;
+    border: solid .2rem black;
+    transition: 1s;
+}
+.imagen4{
+    height: 100%;
+    width: 25%;
+    background-color: transparent;
+    background-image: url(./assets//56383_guest_room_bath_2.png);
+    background-position: center;
+    border-radius: 1rem;
+    border: solid .2rem black;
+    transition: 1s;
+}
+.imagen1:hover{
+    position: relative; 
+    width:100%;
+    height: 35vh;
+    background-image: url(./assets/56383_guest_room_7.png);
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+   
+  
+ 
+}
+.imagen2:hover{
+    position: relative; 
+    width:100%;
+    height: 35vh;
+    background-image: url(./assets/56383_guest_room_3.png);
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+  
+    
+}
+.imagen3:hover{
+    position: relative; 
+    width:100%;
+    height: 35vh;
+    background-image: url(./assets/56383_guest_room_balcony_13.png);
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+   
+    
+}
+.imagen4:hover{
+    position: relative; 
+    width:100%;
+    height: 35vh;
+    background-image: url(./assets//56383_guest_room_bath_2.png);
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+   
+    
+}
