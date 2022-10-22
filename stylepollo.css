@@ -1,4 +1,10 @@
+/* nav + mapa */
+nav{
+    height: 5vh;
+    background-color: black;
+}
 
+/* Aca las tarjetas lindas */
 section{
     height: 35vh;
     width: 85rem;
