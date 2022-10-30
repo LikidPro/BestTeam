@@ -3,3 +3,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header {
+    width: 100%;
+    min-height: 10vh;
+}
+
+section {
+    width: 33.333333%;
+    height: 300px;
+}
+
+.sec1 {
+    background-image: url("./assets/56383_guest_room_3.png");
+    background-size: cover;
+}
+
+.sec2 {
+    background-image: url("./assets/56383_guest_room_1.png");
+    background-size: cover;
+}
+
+.sec3 {
+    background-image: url("./assets/56383_guest_room_7.png");
+    background-size: cover;
+}

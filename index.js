@@ -2,7 +2,8 @@ const app = Vue.createApp({
     data() {
         return {
             habitaciones: dataHabitaciones.habitaciones,
-            fotos: imagenes
+            fotos: imagenes,
+            fotosIndex: imagenesIndex
         }
     },
     created() {
